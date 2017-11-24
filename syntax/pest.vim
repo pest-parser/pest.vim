@@ -14,7 +14,7 @@ syntax region pestChar start=/'/ end=/'/ oneline contained
 syntax match pestModifier "\v[_@$!]"
 syntax match pestOperator "\v[~|*+?&!]" contained
 syntax keyword pestKeyword push contained
-syntax keyword pestSpecial whitespace comment any soi eoi pop peek contained
+syntax keyword pestSpecial whitespace comment any soi eoi pop peek
 
 " Rule blocks
 syntax region pestBlock start=/{/ end=/}/ fold transparent contains=pestString,pestStringIcase,pestChar,pestOperator,pestKeyword,pestSpecial
