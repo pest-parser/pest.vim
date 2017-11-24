@@ -5,7 +5,7 @@ files.
 
 Example (using the default color scheme):
 
-TODO
+![Screenshot](screenshot.png)
 
 ## Installation
 
