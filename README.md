@@ -13,5 +13,5 @@ Example (using the default color scheme):
 
 Add the following to your `vimrc`
 ```vimrc
-Plugin 'dbrgn/pest.vim'
+Plugin 'pest-parser/pest.vim'
 ```
