@@ -6,7 +6,7 @@ syntax match pestComment "\/\/.*$" contains=celTodo
 syntax match pestName "^[a-z_][a-z0-9_]*"
 
 " String types
-syntax region pestString start=/"/ end=/"/ oneline contained
+syntax region pestString start=/"/ skip=/\\\\\|\\"/ end=/"/ oneline contained
 syntax region pestStringIcase start=/\^"/ end=/"/ oneline contained
 syntax region pestChar start=/'/ end=/'/ oneline contained
 
