@@ -21,7 +21,7 @@ syntax keyword pestForbidden abstract alignof as become box break const continue
       \ Self self sizeof static struct super trait true type typeof unsafe unsized use virtual where while yield 
 
 " Rule blocks
-syntax region pestBlock start=/{/ end=/}/ fold transparent contains=pestString,pestStringIcase,pestChar,pestOperator,pestKeyword,pestSpecial,pestForbidden,pestComment
+syntax region pestBlock start=/{/ end=/}/ fold transparent contains=pestString,pestStringIcase,pestChar,pestOperator,pestKeyword,pestSpecial,pestForbidden,pestComment,pestBlock
 syntax region pestRule start=/^/ end=/ / fold transparent contains=pestName,pestForbidden,pestComment
 
 highlight default link pestTodo Todo
