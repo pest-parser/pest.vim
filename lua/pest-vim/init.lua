@@ -7,7 +7,7 @@ function M.setup(opts)
     vim.lsp.config("pest_ls", opts)
     vim.lsp.enable("pest_ls")
   else
-    -- nvim <=0.10
+    -- nvim <0.11
     require("lspconfig").pest_ls.setup(opts)
   end
 end
