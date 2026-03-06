@@ -1,4 +1,4 @@
-# pest.vim
+# pest.nvim
 
 Syntax highlighting for [pest](https://github.com/pest-parser/pest) PEG grammar
 files.
@@ -13,13 +13,13 @@ Example (using the default color scheme):
 
 Add the following to your `vimrc`
 ```vimrc
-Plugin 'pest-parser/pest.vim'
+Plugin 'miguelflor/pest.nvim'
 ```
 
 ### Using [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ```lua
-use 'pest-parser/pest.vim'
+use 'miguelflor/pest.nvim'
 ```
 
 ## Neovim LSP support
